@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap');
+
+body{
+	background-attachment: fixed;
+	background-color: rgb(39, 39, 157);
+	background-image: url(fondo_sitioweb.png);
+	background-size: cover;
+	color: white;
+	font-family: 'Saira Condensed', sans-serif;
+	scrollbar-width: none;
+	text-align: center;
+	-ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: rgb(106, 166, 193);
+	margin: 5px 0px 5px 0px;
+}
+
+p{
+	margin: 5px 5px 5px 5px;
+}
+
+a{
+	color: rgb(255, 147, 255);
+	text-decoration: none;
+}
+
+a:hover{
+	color: rgb(168, 97, 168);
+}
+
+a:active{
+	color: rgb(112, 65, 112);
+}
+
+a img:hover{
+	filter: brightness(50%);
+}
+
+a img:active{
+	filter: brightness(30%);
+}
+
+img{
+	height: auto;
+	max-width: 100%;
+}
+
+footer{
+	margin-top: 40px;
+}
+
+#contenedor{
+	background-image: url(textura_contenedor.png);
+	background-color: rgb(24, 59, 76);
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	max-width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#navegador{
+	background-image: url(textura_navegador.png);
+	background-color: rgb(101, 20, 101);
+}
+
+.item{
+	display: inline-block;
+	font-size: 20px;
+	width: 100px;
+}
+
+.item a{
+	color: white;
+}
+
+.item a:hover{
+	color: rgb(255, 147, 255);
+}
+
+.item a:active{
+	color: rgb(168, 97, 168);
+}
+
+.powerpoint{
+	display: inline-block;
+}
+
+.perfil{
+	color: rgb(106, 166, 193);
+	display: inline-block;
+	font-size: 20px;
+}
