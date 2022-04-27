@@ -3,7 +3,7 @@
 body{
 	background-attachment: fixed;
 	background-color: rgb(39, 39, 157);
-	background-image: url(fondo_sitioweb.png);
+	background-image: url(https://estudioskotsbek.github.io/complementos/fondo.png);
 	background-size: cover;
 	color: white;
 	font-family: 'Saira Condensed', sans-serif;
@@ -56,7 +56,7 @@ footer{
 }
 
 #contenedor{
-	background-image: url(textura_contenedor.png);
+	background-image: url(https://estudioskotsbek.github.io/complementos/textura_contenedor.png);
 	background-color: rgb(24, 59, 76);
 	margin-left: auto;
 	margin-right: auto;
@@ -67,7 +67,7 @@ footer{
 }
 
 #navegador{
-	background-image: url(textura_navegador.png);
+	background-image: url(https://estudioskotsbek.github.io/complementos/textura_navegador.png);
 	background-color: rgb(101, 20, 101);
 }
 
