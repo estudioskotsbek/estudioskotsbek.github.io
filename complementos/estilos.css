@@ -98,3 +98,21 @@ footer{
 	display: inline-block;
 	font-size: 20px;
 }
+
+#descargar{
+	background-image: url(https://estudioskotsbek.github.io/complementos/textura_powerpoint.png);
+	display: inline-block;
+	width: 200px;
+}
+
+#descargar:hover{
+	filter: brightness(50%);
+}
+
+#descargar:active{
+	filter: brightness(30%);
+}
+
+#descargar a{
+	color: white;
+}
