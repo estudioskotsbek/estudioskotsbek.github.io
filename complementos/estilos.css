@@ -51,7 +51,7 @@ footer{
 	max-width: 60%;
 }
 
-#contenido_plagaponzoña{
+#contenido_plagaponzona{
 	background-color: rgb(128, 50, 158);
 	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_plagaponzoña.png);
 	background-position: center;
@@ -183,7 +183,7 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
-  #contenido, #contenido_plagaponzoña, #contenido_gatopán, #contenido_chispa, #contenido_pánicoeneljardín, #contenido_lainspectora{
+  #contenido, #contenido_plagaponzona, #contenido_gatopan, #contenido_chispa, #contenido_panicoeneljardin, #contenido_lainspectora{
 	max-width: 100%;
 	}
 }
