@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body{
+	background-attachment: fixed;
+	background-image: url(https://estudioskotsbek.github.io/complementos/fondo_sitioweb.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+  font-family: 'Roboto Mono', monospace;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+p{
+	margin: 6px 6px 8px 6px;
+}
+
+img{
+	height: auto;
+	max-width: 100%;
+}
+
+a img:hover{
+	filter: brightness(200%);
+}
+
+a img:active{
+	filter: brightness(150%);
+}
+
+iframe{
+	height: 315px;
+  width: 560px;
+}
+
+footer{
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#contenido{
+	background-color: rgb(121, 39, 155);
+	background-image: url(https://estudioskotsbek.github.io/complementos/textura_contenido.png);
+	color: white;
+	margin: auto;
+	text-align: center;
+	max-width: 60%;
+}
+
+#contenido_plagaponzoña{
+	background-color: rgb(128, 50, 158);
+	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_plagaponzoña.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+	margin: auto;
+	text-align: center;
+	max-width: 60%;
+}
+
+#contenido_gatopán{
+	background-color: rgb(92, 28, 119);
+	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_gatopan.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+	margin: auto;
+	text-align: center;
+	max-width: 60%;
+}
+
+#contenido_chispa{
+	background-color: rgb(89, 28, 114);
+	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_chispa.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+	margin: auto;
+	text-align: center;
+	max-width: 60%;
+}
+
+#contenido_pánicoeneljardín{
+	background-color: rgb(140, 66, 168);
+	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_panicoeneljardin.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+	margin: auto;
+	text-align: center;
+	max-width: 60%;
+}
+
+#contenido_lainspectora{
+	background-color: rgb(134, 57, 163);
+	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_lainspectora.png);
+	background-position: center;
+	color: white;
+	margin: auto;
+	text-align: center;
+	max-width: 60%;
+}
+
+#navegacion{
+	background-color: rgb(35, 35, 111);
+	background-image: url(https://estudioskotsbek.github.io/complementos/textura_navegacion.png);
+	color: white;
+	text-align: center;
+}
+
+#novedades{
+	background: url(https://estudioskotsbek.github.io/complementos/textura_noticias.png);
+	display: table;
+	padding-bottom: 25px;
+	width: 100%;
+}
+
+.item{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 20px 10px 20px;
+	vertical-align: middle;
+}
+
+.item a{
+	color: white;
+	text-decoration: none;
+}
+
+.item a:hover{
+	color: rgb(132, 132, 255);
+}
+
+.item a:active{
+	color: rgb(58, 58, 173);
+}
+
+.item img:hover{
+	opacity: 0.5;
+}
+
+.item img:active{
+	opacity: 0.3;
+}
+
+.bloque_en_linea{
+	display: inline-block;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+.descarga{
+	background-color: rgb(73, 29, 91);
+	background-image: url(https://estudioskotsbek.github.io/complementos/textura_descargar.png);
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width: 300px;
+}
+
+.descarga a{
+	color: white;
+	text-decoration: none;
+}
+
+.descarga:hover{
+	filter: brightness(150%);
+}
+
+.descarga:active{
+	filter: brightness(200%);
+}
+
+@media screen and (max-width: 959px) {
+  iframe{
+	max-width: 95%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+  #contenido, #contenido_plagaponzoña, #contenido_gatopán, #contenido_chispa, #contenido_pánicoeneljardín, #contenido_lainspectora{
+	max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 364px) {
+  .descarga{
+	width: 95%;
+	padding: 10px 0px 10px 0px;
+	}
+}
+
+@media screen and (max-width: 237px) {
+  h1{
+	font-size: 150%;
+	}
+}
