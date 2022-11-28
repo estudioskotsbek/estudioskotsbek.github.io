@@ -115,6 +115,16 @@ footer{
 	max-width: 60%;
 }
 
+#contenido_pollitokabum{
+	background-color: rgb(121, 42, 151);
+	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_pollitokabum.png);
+	background-position: center;
+	color: white;
+	margin: auto;
+	text-align: center;
+	max-width: 60%;
+}
+
 #navegacion{
 	background-color: rgb(35, 35, 111);
 	background-image: url(https://estudioskotsbek.github.io/complementos/textura_navegacion.png);
@@ -193,7 +203,8 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
-  #contenido, #contenido_plagaponzona, #contenido_gatopan, #contenido_chispa, #contenido_panicoeneljardin, #contenido_lainspectora{
+  #contenido, #contenido_plagaponzona, #contenido_gatopan, #contenido_chispa, #contenido_panicoeneljardin, #contenido_lainspectora,
+	#contenido_operaciondefensaanimal, #contenido_pollitokabum{
 	max-width: 100%;
 	}
 }
