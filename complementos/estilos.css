@@ -125,6 +125,16 @@ footer{
 	max-width: 60%;
 }
 
+#contenido_resbalamania{
+	background-color: rgb(134, 57, 163);
+	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_resbalamania.png);
+	background-position: center;
+	color: white;
+	margin: auto;
+	text-align: center;
+	max-width: 60%;
+}
+
 #navegacion{
 	background-color: rgb(35, 35, 111);
 	background-image: url(https://estudioskotsbek.github.io/complementos/textura_navegacion.png);
@@ -204,7 +214,7 @@ footer{
 
 @media screen and (max-width: 768px) {
   #contenido, #contenido_plagaponzona, #contenido_gatopan, #contenido_chispa, #contenido_panicoeneljardin, #contenido_lainspectora,
-	#contenido_operaciondefensaanimal, #contenido_pollitokabum{
+	#contenido_operaciondefensaanimal, #contenido_pollitokabum, #contenido_resbalamania{
 	max-width: 100%;
 	}
 }
