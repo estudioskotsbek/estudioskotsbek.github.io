@@ -1,263 +1,324 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
 
 body{
 	background-attachment: fixed;
-	background-image: url(https://estudioskotsbek.github.io/complementos/fondo_sitioweb.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-  font-family: 'Roboto Mono', monospace;
-	scrollbar-width: none;
-	-ms-overflow-style: none;
-}
-
-body::-webkit-scrollbar {
-  display: none;
-}
-
-p{
-	margin: 6px 6px 8px 6px;
+	background-color: rgb(16, 29, 41);
+	background-image: url(https://estudioskotsbek.github.io/complementos/fondo.png);
+	background-position: center;
+	color: white;
+	font-family: "Pixelify Sans", sans-serif;
+	text-align: center;
 }
 
 img{
-	height: auto;
-	max-width: 100%;
-}
-
-a img:hover{
-	filter: brightness(200%);
-}
-
-a img:active{
-	filter: brightness(150%);
+    height: auto;
+    max-width: 100%;
 }
 
 iframe{
+	border-radius: 10px;
 	height: 315px;
-  width: 560px;
+    width: 560px;
 }
 
-footer{
-	font-size: 12px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-#contenido{
-	background-color: rgb(121, 39, 155);
-	background-image: url(https://estudioskotsbek.github.io/complementos/textura_contenido.png);
+::-moz-selection{
+    background: #56A442;
 	color: white;
-	margin: auto;
-	text-align: center;
-	max-width: 60%;
 }
 
-#contenido_plagaponzona{
-	background-color: rgb(128, 50, 158);
-	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_plagaponzoña.png);
-	background-position: center;
-	background-repeat: no-repeat;
+::selection{
+    background: #56A442;
 	color: white;
-	margin: auto;
-	text-align: center;
-	max-width: 60%;
 }
 
-#contenido_gatopan{
-	background-color: rgb(92, 28, 119);
-	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_gatopan.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	color: white;
-	margin: auto;
-	text-align: center;
-	max-width: 60%;
+::-webkit-scrollbar{
+    width: 15px;
 }
 
-#contenido_chispa{
-	background-color: rgb(89, 28, 114);
-	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_chispa.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	color: white;
-	margin: auto;
-	text-align: center;
-	max-width: 60%;
+::-webkit-scrollbar-track{
+	backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0px 0px 5px 0px rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(10px);
 }
 
-#contenido_panicoeneljardin{
-	background-color: rgb(140, 66, 168);
-	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_panicoeneljardin.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	color: white;
-	margin: auto;
-	text-align: center;
-	max-width: 60%;
+::-webkit-scrollbar-thumb{
+	backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0px 0px 5px 0px rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(10px);
 }
 
-#contenido_lainspectora{
-	background-color: rgb(134, 57, 163);
-	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_lainspectora.png);
-	background-position: center;
-	color: white;
-	margin: auto;
-	text-align: center;
-	max-width: 60%;
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-#contenido_operaciondefensaanimal{
-	background-color: rgb(139, 64, 167);
-	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_operaciondefensaanimal.png);
-	background-position: center;
-	color: white;
-	margin: auto;
-	text-align: center;
-	max-width: 60%;
-}
-
-#contenido_pollitokabum{
-	background-color: rgb(121, 42, 151);
-	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_pollitokabum.png);
-	background-position: center;
-	color: white;
-	margin: auto;
-	text-align: center;
-	max-width: 60%;
-}
-
-#contenido_resbalamania{
-	background-color: rgb(134, 57, 163);
-	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_resbalamania.png);
-	background-position: center;
-	color: white;
-	margin: auto;
-	text-align: center;
-	max-width: 60%;
-}
-
-#contenido_mariquitavoraz{
-	background-color: rgb(136, 59, 164);
-	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_mariquitavoraz.png);
-	background-position: center;
-	color: white;
-	margin: auto;
-	text-align: center;
-	max-width: 60%;
-}
-
-#contenido_agenteteodoro{
-	background-color: rgb(125, 47, 155);
-	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_agenteteodoro.png);
-	background-position: center;
-	color: white;
-	margin: auto;
-	text-align: center;
-	max-width: 60%;
-}
-
-#contenido_bichocanasto{
-	background-color: rgb(128, 50, 157);
-	background-image: url(https://estudioskotsbek.github.io/complementos/juegos-en-powerpoint/fondo_bichocanasto.png);
-	background-position: center;
-	color: white;
-	margin: auto;
-	text-align: center;
-	max-width: 60%;
+#contenedor{
+	backdrop-filter: blur(10px);
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 5px 0px rgba(255, 255, 255, 0.5);
+	margin: 5px auto;
+	padding: 5px;
+	width: 700px;
+	-webkit-backdrop-filter: blur(10px);
 }
 
 #navegacion{
-	background-color: rgb(35, 35, 111);
-	background-image: url(https://estudioskotsbek.github.io/complementos/textura_navegacion.png);
-	color: white;
-	text-align: center;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 5px 0px rgba(255, 255, 255, 0.5);
+	padding: 2px;
 }
-
-#novedades{
-	background: url(https://estudioskotsbek.github.io/complementos/textura_noticias.png);
-	display: table;
-	padding-bottom: 25px;
-	width: 100%;
-}
-
-.item{
-	display: inline-block;
-	font-size: 20px;
+#navegacion ul{
 	font-weight: bold;
-	margin: 10px 20px 10px 20px;
-	vertical-align: middle;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
-
-.item a{
+#navegacion li{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+}
+#navegacion a{
 	color: white;
 	text-decoration: none;
 }
-
-.item a:hover{
-	color: rgb(132, 132, 255);
+#navegacion a:hover{
+	text-decoration: underline 2px solid #56A442;
 }
-
-.item a:active{
-	color: rgb(58, 58, 173);
+#navegacion a:active{
+	color: #A5E85D;
+	text-decoration: underline 2px solid #A5E85D;
 }
-
-.item img:hover{
+#navegacion img:hover{
+	opacity: 0.7;
+}
+#navegacion img:active{
 	opacity: 0.5;
 }
 
-.item img:active{
-	opacity: 0.3;
+#noticias p{
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: left;
 }
 
-.bloque_en_linea{
+.juego{
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	color: white;
 	display: inline-block;
-	margin-left: 7px;
-	margin-right: 7px;
-}
-
-.descarga{
-	background-color: rgb(73, 29, 91);
-	background-image: url(https://estudioskotsbek.github.io/complementos/textura_descargar.png);
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10px;
+	font-weight: bold;
+	margin: 5px auto;
+	padding: 2px;
+	text-align: left;
+	text-decoration: none;
 	width: 300px;
 }
+.juego:hover{
+	opacity: 0.5;
+	text-decoration: none;
+}
+.juego:active{
+	opacity: 0.3;
+	text-decoration: none;
+}
+.juego img{
+	border-radius: 10px;
+	text-decoration: none;
+	vertical-align: middle;
+}
+.juego p{
+	display: inline-block;
+	text-decoration: none;
+	vertical-align: middle;
+	width: 150px;
+}
 
-.descarga a{
+.boton{
+	background-color: #A5E85D;
+	background-image: linear-gradient(145deg, #ECEE8D 0%, #A5E85D 50%, #56A442 75%);
+	border-radius: 10px;
+	color: black;
+	display: inline-block;
+	font-weight: bold;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+.boton:hover{
+	background-color: #56A442;
+	background-image: none;
 	color: white;
 	text-decoration: none;
 }
-
-.descarga:hover{
-	filter: brightness(150%);
+.boton:active{
+	background-color: white;
+	background-image: none;
+	box-shadow: inset 0px 0px 10px 0px rgb(0, 0, 0);
+	color: #56A442;
+	text-decoration: none;
 }
 
-.descarga:active{
-	filter: brightness(200%);
+.miembro{
+	display: inline-block;
+	vertical-align: top;
+	width: 148px;
+}
+.miembro img{
+	border-radius: 50%;
+	padding: 2px;
 }
 
-@media screen and (max-width: 959px) {
-  iframe{
-	max-width: 95%;
+#pie{
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 5px 0px rgba(255, 255, 255, 0.5);
+	padding: 2px;
+}
+
+.redsocial{
+	border-radius: 50%;
+	color: black;
+	display: inline-block;
+	font-weight: bold;
+	height: 50px;
+	margin: 2px;
+	text-decoration: none;
+	width: 50px;
+}
+.redsocial:hover{
+	color: white;
+	text-decoration: none;
+}
+.redsocial:active{
+	box-shadow: inset 0px 0px 10px 0px rgb(0, 0, 0);
+	text-decoration: none;
+}
+.redsocial i{
+	font-size: 30px;
+	line-height: 50px;
+	vertical-align: middle;
+}
+
+#botondeyoutube{
+	background-color: #E85D68;
+	background-image: linear-gradient(#EE9F8D 0%, #E85D68 50%, #A4425D 75%);
+}
+#botondeyoutube:hover{
+	background-color: #A4425D;
+	background-image: none;
+}
+#botondeyoutube:active{
+	background-color: white;
+	background-image: none;
+	color: #A4425D;
+}
+
+#botondetwitter{
+	background-color: #5DD1E8;
+	background-image: linear-gradient(#8DEED1 0%, #5DD1E8 50%, #4275A4 75%);
+}
+#botondetwitter:hover{
+	background-color: #4275A4;
+	background-image: none;
+}
+#botondetwitter:active{
+	background-color: white;
+	background-image: none;
+	color: #4275A4;
+}
+
+#botondediscord{
+	background-color: #665DE8;
+	background-image: linear-gradient(#8DB4EE 0%, #665DE8 50%, #6742A4 75%);
+}
+#botondediscord:hover{
+	background-color: #6742A4;
+	background-image: none;
+}
+#botondediscord:active{
+	background-color: white;
+	background-image: none;
+	color: #6742A4;
+}
+
+#botondetiktok{
+	background-color: #5D6DE8;
+	background-image: linear-gradient(#8DDCEE 0%, #5D6DE8 50%, #A44268 75%);
+}
+#botondetiktok:hover{
+	background-color: #A44268;
+	background-image: none;
+}
+#botondetiktok:active{
+	background-color: white;
+	background-image: none;
+	color: #A44268;
+}
+
+#icono{
+	border-radius: 10px;
+}
+
+#capturas img{
+	border-radius: 10px;
+}
+
+@media only screen and (max-width: 190px) {
+    .juego{
+	    background-color: transparent;
+	    display: block;
+	    text-align: center;
+	    width: 95%;
+    }
+	.juego p{
+	    display: block;
+		margin: 1px;
+	    width: auto;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    iframe{
+	    height: auto;
 	}
 }
 
-@media screen and (max-width: 768px) {
-  #contenido, #contenido_plagaponzona, #contenido_gatopan, #contenido_chispa, #contenido_panicoeneljardin, #contenido_lainspectora,
-	#contenido_operaciondefensaanimal, #contenido_pollitokabum, #contenido_resbalamania, #contenido_mariquitavoraz, #contenido_agenteteodoro, #contenido_bichocanasto{
-	max-width: 100%;
+@media only screen and (max-width: 580px) {
+    .miembro{
+	    display: block;
+	    width: 95%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    iframe{
+	    max-width: 95%;
 	}
 }
 
-@media screen and (max-width: 364px) {
-  .descarga{
-	width: 95%;
-	padding: 10px 0px 10px 0px;
+@media only screen and (min-width: 190px) and (max-width: 680px) {
+    #navegacion li{
+		display: block;
 	}
+    .juego{
+	    background-color: transparent;
+	    display: block;
+	    text-align: center;
+	    width: 150px;
+    }
+    .juego p{
+	    display: block;
+		margin: 1px;
+	    width: auto;
+    }
 }
 
-@media screen and (max-width: 237px) {
-  h1{
-	font-size: 150%;
-	}
+@media only screen and (max-width: 850px) {
+    #contenedor{
+	    width: 95%;
+    }
 }
